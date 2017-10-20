@@ -6,13 +6,13 @@ public class ParImpar {
 		int impar = 0;
 		int par = 0;
 		
-		System.out.println("Soma de numeros ímpares e pares:\n");
+		System.out.println("Soma de numeros Ã­mpares e pares:\n");
 		
 		for(i=0;i<=30;i++) {
 			if(i %2 !=0)
 				impar += i;
 			else
-				par +=i;
+				par = par*i;
 			
 		}
 		System.out.println("A soma dos valores impares e:"+ impar);
